@@ -1,0 +1,44 @@
+.header-container {
+    width: 100%;
+    max-width: 1640px;
+    margin: 0 auto;
+    background-color: rgb(135, 12, 12);
+
+    h1 {
+        color: white;
+        text-align: center;
+    }
+
+    .header-parent {
+        width: 100%;
+        margin: 0 auto;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .header-bottom {
+            display: flex;
+            align-items: center;
+            padding-left: 40px;
+            gap: 30px;
+            margin-top: 20px;
+
+            p {
+                border-right: 1px solid white;
+                padding: 10px 10px;
+                cursor: pointer;
+                font-size: 18px;
+            }
+        }
+
+        
+        .header-search{
+            margin-top: 20px;
+            input{
+                padding: 5px 20px;
+                outline: none;
+            }
+        }
+    }
+}

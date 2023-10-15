@@ -1,0 +1,42 @@
+.home-container {
+    width: 100%;
+    max-width: 1640px;
+    margin: 0 auto;
+
+    .home-parent {
+        width: 95%;
+        margin: 0 auto;
+
+        .home-left {
+            width: 25%;
+
+            img {
+                width: 100%;
+            }
+
+
+            .left-card {
+                border: 1px solid gray;
+                border-radius: 3px;
+
+                h3 {
+                    background-color: gray;
+                }
+
+                .left-card-body {
+                    padding-top: 8px;
+                    ul{
+                        li{
+                            padding: 4px 0;
+                            font-size: 17px;
+                        }
+
+                        li:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
