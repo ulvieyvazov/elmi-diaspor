@@ -1,5 +1,7 @@
 import React from 'react'
 import "./index.scss"
+import { FaLocationDot } from "react-icons/fa6";
+
 
 const Home = () => {
   return (
@@ -56,6 +58,12 @@ const Home = () => {
         </div>
 
         <div className='home-main'>
+
+          <div className='diaspor-uzvleri'>
+            <a href=""> <FaLocationDot/> Baslangic/</a>
+            <a href="">Diaspor uzvləri</a>
+            <h2>Diaspor üzvləri</h2>
+          </div>
 
         </div>
 

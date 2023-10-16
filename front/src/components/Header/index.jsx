@@ -8,8 +8,9 @@ const Header = () => {
             <div className='header-top'>
                 <h1>Azərbaycanın Elmi Diasporu</h1>
 
-                <form action="">
+                <form action="" style={{display: 'flex', justifyContent: 'space-between', gap: '20px'}}>
                     <button>Uzv ol</button>
+                    <button>Daxil ol</button>
                 </form>
             </div>
 
