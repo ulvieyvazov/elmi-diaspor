@@ -18,7 +18,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className='left-card' style={{margin: '20px 0'}}>
+          <div className='left-card' style={{ margin: '20px 0' }}>
             <h3>Diaspor xəbərləri</h3>
             <div className='left-card-body'>
               <ul>
@@ -27,6 +27,29 @@ const Home = () => {
                 <a href=""><li>APA İnformasiya Agentliyi</li></a>
                 <a href=""><li>“Report” İnformasiya Agentliyi</li></a>
               </ul>
+            </div>
+          </div>
+
+          <div className='left-card' style={{ margin: '20px 0' }}>
+            <h3>Tanış olun: bizim elmi diaspor</h3>
+            <div className='left-card-body'>
+              <ul>
+                <a href=""><li>Səbzəli Cavadov</li></a>
+              </ul>
+            </div>
+          </div>
+
+          <a href="https://www.aztu.edu.az/az" target='_blank'><img src="https://elmidiaspor.edu.az/images/AzTU.jpg" alt="" /></a>
+
+
+          <div className='left-card' style={{ margin: '20px 0' }}>
+            <h3>Hava proqnozu</h3>
+            <div className='left-card-body'>
+              <div>
+                <a href="https://www.gismeteo.com/weather-baku-5302/" target='_blank'>
+                  <img src="https://www.treehugger.com/thmb/3-kDdYqWzDQiwY2UlvOpmLhXv3c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__treehugger__images__2019__09__cloud-0693b27e05ee4a1c802182da4aa117a9.jpg" alt="" />
+                </a>
+              </div>
             </div>
           </div>
 

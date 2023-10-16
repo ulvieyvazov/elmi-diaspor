@@ -5,7 +5,13 @@ import { AiFillHome } from "react-icons/ai";
 const Header = () => {
     return (
         <div className='header-container'>
-            <h1>Azərbaycanın Elmi Diasporu</h1>
+            <div className='header-top'>
+                <h1>Azərbaycanın Elmi Diasporu</h1>
+
+                <form action="">
+                    <button>Uzv ol</button>
+                </form>
+            </div>
 
             <div className='header-parent'>
                 <div className='header-bottom'>
