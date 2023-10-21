@@ -60,8 +60,8 @@ const Home = () => {
         <div className='home-main'>
 
           <div className='diaspor-uzvleri'>
-            <a href=""> <FaLocationDot/> Baslangic/</a>
-            <a href="">Diaspor uzvləri</a>
+            {/* <a href=""> <FaLocationDot/> Baslangic/</a>
+            <a href="">Diaspor uzvləri</a> */}
             <h2>Diaspor üzvləri</h2>
           </div>
 
